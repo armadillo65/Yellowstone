@@ -5,6 +5,7 @@
   text-shadow: 1px 1px 2px #000;
   font-size: 2.5rem;
 }
+
 body {
   margin: 0;
   font-size: 16px;
@@ -29,18 +30,6 @@ li {
   list-style: none;
 }
 
-/*
-nav {
-position: fixed;
-top: 0;
-left: 0;
-width: 100%;
-padding: 1rem;
-display: flex;
-background-color: #fff;
-}
-*/
-
 a {
   text-decoration: none;
   color: #fff;
@@ -56,9 +45,7 @@ footer {
   align-items: center;
   justify-content: center;
 }
-#navbar {
-  transition: top 0.8s;
-}
+
 /* --- Layout --- */
 .service-list li::before,
 .team p::before {
@@ -166,7 +153,6 @@ main img{
     rgba(0, 0, 0, 0.5)),
     url('../img/AdobeStock_paint.jpeg');
   height: 100vh;
-  z-index: 500;
 }
 
 .pimg2 {
@@ -195,7 +181,6 @@ main img{
     rgba(0, 0, 0, 0.5)),
     url('../img/AdobeStock_paint.jpeg');
   min-height: 300px;
-  z-index: 500;
 }
 
 .section {
@@ -322,7 +307,8 @@ main img{
 
   .pimg1,
   .pimg2,
-  .pimg3 {
+  .pimg3,
+  .pimg4 {
     background-attachment: scroll;
   }
 
