@@ -6,6 +6,24 @@
   font-size: 2.5rem;
 }
 
+/* Logo Animation */
+/*
+#brand-logo {
+  animation: logo ease-in-out;
+  animation-iteration-count: 1;
+  animation-duration: 2s;
+  animation-delay: 3s;
+}
+
+@keyframes logo {
+  0 {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(90deg);
+  }
+}
+*/
 body {
   margin: 0;
   font-size: 16px;
@@ -290,6 +308,9 @@ main img{
  }
 
  @media (max-width: 767.9px){
+   .team-para p {
+     line-height: 1.4;
+   }
 
    p,
    li,
@@ -315,14 +336,14 @@ main img{
   footer span {
     font-size: 0.9em;
   }
-
+/*
   .pimg1,
   .pimg2,
   .pimg3,
   .pimg4 {
     background-attachment: scroll;
   }
-
+*/
   .ptext {
     font-size: 20px;
   }
